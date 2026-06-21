@@ -65,5 +65,12 @@ gap: 20px;
 
 }
 
+.enviar{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: darkblue;
+    color: rgb(236, 236, 44);
+}
+
 
 }
