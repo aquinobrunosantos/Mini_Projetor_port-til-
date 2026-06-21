@@ -1,0 +1,69 @@
+
+@media screen and (min-width:769px) and (max-width:992px){
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: slategray;
+}
+main{
+    width: 90%;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+    border-radius: 10px;
+}
+
+.baner{
+   background-image: url(../imagens/form.webp);
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nome, .sobre, .email, .senha{
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 5px;
+
+}
+
+
+form{
+background-color: darkgrey;
+width: 50%;
+height: 500px;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 20px;
+
+
+}
+
+#inome, #isobrenome, #iemail, #isenha{
+    padding: 5px;
+    border-radius: 10px;
+    width: 100%;
+    
+    text-align: center;
+
+}
+
+
+}

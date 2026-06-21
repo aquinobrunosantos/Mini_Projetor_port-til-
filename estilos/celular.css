@@ -1,0 +1,97 @@
+/*celulares*/
+@media screen and (max-width:768px) {
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(85, 81, 81);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+    gap: 50px;
+
+}
+h1{
+    position: absolute;
+    top: 50px;
+}
+
+main{
+    border: 2px solid rgb(51, 47, 47);
+    width: 50vw;
+    height: 450px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+    gap: 20px;
+    border-radius: 10px;
+
+}
+
+label,input,h1{
+    color: white;
+    
+}
+
+.baner{
+    width: 100%;
+     background-image: url('../imagens/OIP.jfif');
+   /*
+     position: relative;
+    bottom:75px;
+    */
+    margin-top: -20px;
+    overflow: hidden;
+    height: 185px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    bottom: -18px;
+}
+
+form{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+    width: 100%;
+    gap: 10px;
+     align-self: flex-start; 
+
+}
+
+.nome, .sobre, .email, .senha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+}
+
+#inome, #isobrenome, #iemail, #isenha{
+    width: 120%;
+    background-color: black;
+    padding: 5px;
+}
+
+
+
+.enviar{
+    color: black;
+    padding: 5px;
+    width: 80px;
+    background-color: yellow;
+    border-radius: 10px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+}
