@@ -25,7 +25,7 @@ h1{
 
 main{
     border: 2px solid rgb(51, 47, 47);
-    width: 50vw;
+    width: 70%;
     height: 450px;
      display: flex;
     justify-content: center;
@@ -77,7 +77,7 @@ form{
 }
 
 #inome, #isobrenome, #iemail, #isenha{
-    width: 120%;
+    width: 80%;
     background-color: black;
     padding: 5px;
 }
